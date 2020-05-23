@@ -4,7 +4,6 @@ $(document).ready(() => {
 	var movie = hash.split('=');
 	var movieid = movie[1];
 	movieDetalis(movieid);
-	//event.preventDefault();
 
 	function movieDetalis(movieid)
 	{
